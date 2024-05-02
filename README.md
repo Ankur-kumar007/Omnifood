@@ -1,3 +1,3 @@
 omnifood project
 currently Working on this project...
-finishing this project on 4rd of may.
+finishing this project on 4th of may.
