@@ -50,12 +50,13 @@ body {
 }
 .section-hero {
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 9.6rem 0;
   padding-left: 10%;
 }
 .hero {
   max-width: 130rem;
   margin: 0 auto;
+  padding: 0 3.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.2rem;
@@ -140,4 +141,15 @@ body {
 .delivered-text span {
   color: #cf711f;
   font-weight: bolder;
+}
+.logo {
+  height: 2.2rem;
+  padding-left: 8%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  height: 9.6rem;
 }
