@@ -15,6 +15,7 @@
 
     <!--  link with css file. -->
     <link rel="stylesheet" href="style.css" />
+    <script defer src="js/script.js"></script>
 
     <script
       type="module"
@@ -28,8 +29,12 @@
     <title>OMNIFOOD</title>
   </head>
   <body>
-    <header class="header nav-open">
+    <header class="header">
+      <a href="#">
       <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+    </a>
+
+
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">How it works</a></li>
@@ -105,7 +110,7 @@
         <div class="container">
           <span class="subheading"> How it works</span>
           <h2 class="heading-secondary">
-            Your daily does of healthy in 3 simple steps
+            Your daily dose of health in 3 simple steps
           </h2>
         </div>
 
@@ -429,7 +434,7 @@
           </figure>
         </div>
       </section>
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
@@ -539,7 +544,7 @@
         </div>
       </section>
     
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -549,7 +554,7 @@
                 eating well today. You can cancel or pause anytime. And the
                 first meal is on us!
               </p>
-              <form class="cta-form" action="#">
+              <form class="cta-form" name="sign-up" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
@@ -570,7 +575,7 @@
                 </div>
                 <div>
                   <label for="select-where">Where did you hear from us?</label>
-                  <select id="select-where" required>
+                  <select id="select-where" name="select-where" required>
                     <option value="">Please choose one option:</option>
                     <option value="friends">Friends and family</option>
                     <option value="youtube">YouTube video</option>
@@ -615,7 +620,8 @@
             </li>
           </ul>
           <p class="copyright">
-            Copyright &copy; 2024 by Omnifood, Inc. All rights reserved
+            Copyright &copy; <span class="year">2027</span> by Omnifood, Inc.
+            All rights reserved.
           </p>
         </div>
         <div class="address-col">
